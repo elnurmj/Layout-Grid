@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header .brand{
+    padding-left: 10px;
+}
+.header a{
+    color: gray;
+    text-decoration: none;
+}
+.header .links{
+    padding-right: -10px;
+}
+.header .links a{
+    padding-right: 20px;
+}
+.page-header{
+    background-color: rgb(235, 235, 235);
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.page-header .text{
+    margin-bottom: 30px;
+    font-family: 'Arial',sans-serif;
+}
+.page-header .text p{
+    color: rgb(77, 77, 77);
+}
+.page-header .buttons button{
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: none;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.page-header .buttons .first-button{
+    background-color: rgb(0, 110, 255);
+    margin-right: 10px;
+}
+.page-header .buttons .second-button{
+    background-color: rgb(197, 0, 0);
+    margin-left: 10px;
+}
+#first-content .row .col-6 .content{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+#first-content .row .col-6 .content h1{
+    margin-bottom: 10px;
+    font-family: 'Arial',sans-serif;
+}
+#first-content .row .col-6 .content p{
+    margin-bottom: 20px;
+    font-family: 'Arial',sans-serif;
+    color: rgb(77, 77, 77);
+}
+#first-content .row .col-6 .content button{
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(0, 110, 255);
+}
+#first-content .row .col-6 .photo{
+    background-color: gray;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+}
+#first-content .row .col-6 .photo h1{
+    font-size: 48px;
+    padding-top: 120px;
+    font-family: 'Arial',sans-serif;
+    color: rgb(73, 73, 73);
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#second-content h1{
+    text-align: center;
+    padding-top: 50px;
+}
+#second-content .row .icon{
+    border-radius: 50%;
+    background-color: rgb(0, 110, 255);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#second-content .row .icon i{
+    padding-top: 80px;
+    font-size: 40px;
+    color: white;
+}
+#second-content .row .text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#second-content .row .text h1{
+    font-family: 'Arial',sans-serif;
+}
+#second-content .row .text p{
+    padding-top: 10px;
+}
+#third-content .header{
+    display: flex;
+    justify-content: center;
+}
+#third-content .header h1{
+    margin-top: 50px;
+    font-family: 'Arial',sans-serif;
+}
+#third-content .row .col-3 .photo{
+    background-color: gray;
+    height: 170px;
+    text-align: center;
+    margin-left: 20px;
+    width: 350px;
+    margin-top: 20px;
+}
+#third-content .row .col-3 .photo h1{
+    padding-top: 75px;
+}
+.third-line{
+    margin-top: 100px;
+}
+#four-content .text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#four-content .text h1{
+    font-family: 'Arial',sans-serif;
+    margin-bottom: 30px;
+}
+#four-content .text p{
+    font-family: 'Arial',sans-serif;
+    color: rgb(77, 77, 77);
+}
+#four-content .row .col-4 input{
+    width: 300px;
+    height: 30px;
+    margin-left: 100px;
+}
+#four-content .message input{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 1315px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+#four-content button{
+    margin-left: 100px;
+    color: white;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#footer .text{
+    background-color: rgb(235, 235, 235);
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#footer .text h1{
+    text-align: center;
+    font-family: 'Arial',sans-serif;
+    margin-bottom: 100px;
+}
+#footer .text .company-name{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .text .company-name p{
+    font-family: 'Arial',sans-serif;
+    color: rgb(77, 77, 77);
+    font-size: 10px;
+}
